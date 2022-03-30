@@ -16,7 +16,7 @@ public class ApplicationManager {
 
     public void init() {
         wd = new ChromeDriver();
-        System.setProperty("webdriver.chrome.driver", "/home/i-istomin/TelRan/SYSTEMS/Qa32_DemoQa/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/home/i-istomin/TelRan/SYSTEMS/Qa32_Demo/chromedriver");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         wd.navigate().to("https://demoqa.com/");
